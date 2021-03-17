@@ -11,11 +11,16 @@
 
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) { 
-   
+   .ro1,.ro2,.ro3,.ro4{
+       align-content: center;
+   }
  }
 
 /* // Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) { 
+@media (min-width: 768px) {
+    .ro1,.ro2,.ro3,.ro4{
+        align-content: center;
+    } 
    
  }
 
@@ -24,6 +29,9 @@
     .col1{
         padding-left:80px;
     }
+    .ro1,.ro2,.ro3,.ro4{
+        align-content: center;
+    }
 
  }
 
@@ -31,5 +39,8 @@
 @media (min-width: 1200px) { 
     .col1{
         padding-left:80px;
+    }.ro1,.ro2,.ro3,.ro4{
+        align-content: center;
     }
+
  }
